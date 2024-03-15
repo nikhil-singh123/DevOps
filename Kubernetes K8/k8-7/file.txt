@@ -1,0 +1,4 @@
+deployment.apps/deploy01 
+REVISION  CHANGE-CAUSE
+1         kubectl scale deployment deploy01 --replicas=3 --record=true
+
